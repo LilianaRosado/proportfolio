@@ -23,13 +23,17 @@ body {
     background-color: var(--dark);
     color: var(--white);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 6px #1b1a1a;
 }
 .header{
     /*display: flex;*/
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: none;
     border-style: solid;
     border-width: 2px;
     border-color: var(--dark);
-    border-radius: 20px ;
     background: linear-gradient(145deg, #203543, #273f4f);
     box-shadow:  23px 23px 46px #1c2f3a,
                  -23px -23px 46px #2c475a;
@@ -64,12 +68,39 @@ a[href] {
     text-decoration: none;
     color: #DCE0D9;
 }
-/*Isn't working have to figure out how to get image to show maybe mess with opacity??*/
-/*.figure {
-    height: 800px;;
+
+.figure {
+    background-image: url(../assets/images/motherboard1.jpg);
+    background-position: center center;
+    height: 750px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url(...assets\images\motherboard1.jpg);
-    background-size: cover;
-    background-position: center;
-} */
+    margin-top: none;
+    margin-bottom: none;
+    background-size:cover;
+    opacity: 100%;
+    box-shadow:  10px 10px 20px #1c2f3a,
+                 -10px -10px 20px #2c475a;
+    
+} 
+
+.quote {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--dark);
+    background: linear-gradient(145deg, #203543, #273f4f);
+    box-shadow:  23px 23px 46px #1c2f3a,
+                 -23px -23px 46px #2c475a;
+    color: var(--white);
+    font-size: 30px;
+}
+
+.article {
+    margin-top: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: none; 
+}
