@@ -71,6 +71,8 @@ a[href] {
 
 .figure {
     background-image: url(../assets/images/motherboard1.jpg);
+    background-position-x: center;
+    background-position-y: center;
     background-position: center center;
     height: 750px;
     width: 100%;
@@ -92,10 +94,13 @@ a[href] {
     border-width: 2px;
     border-color: var(--dark);
     background: linear-gradient(145deg, #203543, #273f4f);
-    box-shadow:  23px 23px 46px #1c2f3a,
-                 -23px -23px 46px #2c475a;
+    box-shadow:  23px 23px 46px #1c2f3a;
     color: var(--white);
-    font-size: 30px;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    text-shadow: 3px 3px 6px #1b1a1a;
 }
 
 .article {
