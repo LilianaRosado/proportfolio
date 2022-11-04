@@ -73,16 +73,13 @@ a[href] {
     background-image: url(../assets/images/motherboard1.jpg);
     background-position-x: center;
     background-position-y: center;
-    background-position: center center;
-    height: 750px;
-    width: 100%;
+    background-repeat: no-repeat;
+    height: 780px;
+    max-width: 100%;
     margin-top: none;
     margin-bottom: none;
-    background-size:cover;
+    background-size: 1872px;
     opacity: 100%;
-    box-shadow:  10px 10px 20px #1c2f3a,
-                 -10px -10px 20px #2c475a;
-    
 } 
 
 .quote {
@@ -107,5 +104,54 @@ a[href] {
     margin-top: none;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: none; 
+    margin-bottom: 15px; 
+    padding: 20px;
+    background-color: var(--dark);
+    color: var(--white);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 6px #1b1a1a;
+    font-size: 35px;
+}
+
+.avatar {
+    background-image: url(../assets/images/selfavatar.jpg);
+    height:400px;
+    width:400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    float:right;
+}
+
+#about-me{
+    display: inline;
+    text-align: center;
+}
+
+.paragraphs{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: var(--white);
+    text-shadow: none;
+    line-height: 1cm;
+}
+
+.UTA{
+    background-image: url(../assets/images/UTA.jpg);
+    height:300px;
+    width:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:left;
+}
+
+#work{
+    display: inline;
+    text-align: center;
+}
+
+#contact-me{
+    display: inline;
+    text-align: center; 
 }
